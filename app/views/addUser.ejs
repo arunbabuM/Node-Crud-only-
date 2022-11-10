@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Add New Student</h3>
+    <form method="post" action="/insertuser">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" required name="name" >
+    </div>
+
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="text" required name="age">
+    </div>
+
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" required name="city">
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Save Details</button>
+    </div>
+    </form>
+
+   
+    <button><a href="/crud" class="viewbtn">View All</a></button>
+    
+    
+</body>
+</html>
